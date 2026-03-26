@@ -1,4 +1,5 @@
-*Corrective RAG (CRAG) Implementation with Ollama*
+##Corrective RAG (CRAG) Implementation with Ollama
+
 A robust implementation of the Corrective Retrieval Augmented Generation (CRAG) architecture using LangGraph. This project builds upon foundational code to introduce advanced routing, document grading, and local LLM execution.
 
 Acknowledgments
@@ -33,16 +34,14 @@ Frameworks: LangChain, LangGraph
 
 Local Inference: Ollama
 
-Embeddings & Vector Store: [Insert your Vector DB here, e.g., ChromaDB]
 
-Web Search API: [Insert your search tool, e.g., Tavily]
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
+
 **1. Clone the repository**
 ```bash
 git clone [https://github.com/DeepPatil22/Ollama.git](https://github.com/DeepPatil22/Ollama.git)
 cd Ollama
-
 2. Create and activate a virtual environment
 
 Bash
@@ -68,7 +67,6 @@ Create a .env file in the root directory and add any necessary API keys (e.g., f
 Code snippet
 TAVILY_API_KEY=your_api_key_here
 💡 Usage
-(Add a brief description here of how to run your main script. For example:)
 
 Bash
 python main.py
