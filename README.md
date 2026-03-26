@@ -38,10 +38,12 @@ Local Inference: Ollama
 
 ## 🚀 Installation & Setup
 
-**1. Clone the repository**
+1. Clone the repository
 ```bash
 git clone [https://github.com/DeepPatil22/Ollama.git](https://github.com/DeepPatil22/Ollama.git)
 cd Ollama
+
+
 2. Create and activate a virtual environment
 
 Bash
@@ -52,16 +54,22 @@ python -m venv myenv
 # Mac/Linux
 python3 -m venv myenv
 source myenv/bin/activate
+
+
 3. Install dependencies
 
 Bash
 pip install -r requirements.txt
+
+
 4. Install and Start Ollama
 Ensure you have Ollama installed on your machine. Pull the required model before running the application:
 
 Bash
 ollama run llama3
 5. Environment Variables
+
+
 Create a .env file in the root directory and add any necessary API keys (e.g., for your web search fallback):
 
 Code snippet
