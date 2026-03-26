@@ -38,11 +38,11 @@ Embeddings & Vector Store: [Insert your Vector DB here, e.g., ChromaDB]
 Web Search API: [Insert your search tool, e.g., Tavily]
 
 🚀 Installation & Setup
-1. Clone the repository
+**1. Clone the repository**
+```bash
+git clone [https://github.com/DeepPatil22/Ollama.git](https://github.com/DeepPatil22/Ollama.git)
+cd Ollama
 
-Bash
-git clone https://github.com/YourUsername/Your-Repo-Name.git
-cd Your-Repo-Name
 2. Create and activate a virtual environment
 
 Bash
